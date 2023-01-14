@@ -1,0 +1,50 @@
+
+#image
+{
+    width : 100%;
+    height : 400px;
+    background-image: url('../../images/degreeDistribution.jpg');
+    background-size: 100% 100%;
+   animation: changeImage 20s  infinite;
+ 
+display: flex;
+align-items: center;
+
+}
+@keyframes  changeImage{
+    0%
+    {
+        background-image: url('../../images/degreeDistribution.jpg');
+    }
+    25%
+    {
+        background-image: url('../../images/computerLab.jpg');
+    }
+    50%
+    {
+        background-image: url('../../images/orien.jpg');
+    
+    }
+     75%
+     {
+        background-image: url('../../images/entryExam.jpg');
+     }
+    100%
+     {
+         background-image: url('../../images/degreeDistribution.jpg');
+     }
+}
+
+
+/* .arrow
+{
+    display: inline;
+}
+ 
+
+#A1:hover  ,#A2:hover 
+{
+    
+    color: rgba(85, 156, 223, 0.493);
+   
+} */

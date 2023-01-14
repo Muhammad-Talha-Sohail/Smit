@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+} 
+.foot 
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #1976d2; 
+    font-weight: bold;
+}
+.try
+{
+    height:200px;
+    width: 100%;
+    background-color: #1976d2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.f1
+{ 
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+#a1, #a2 ,#a3
+{
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size:large;
+}
+#a1:hover{
+    color: red;
+    font-size: x-large;
+    transition: 0.5s;
+}
+#a2:hover{
+    color: blue;
+    font-size: x-large;
+    transition:0.5s;
+}
+#a3:hover{
+    color:lightblue;
+    font-size: x-large;
+    transition:0.5s;
+}

@@ -1,0 +1,70 @@
+*
+{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+ .Cards
+{
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+#Head1
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #1fccff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    border: 1px solid azure;
+}
+
+#Head1:hover
+{
+    color: azure;
+     background-color: #1fccff;
+    border:black 1px solid;
+    border-radius: 50px;
+    transition: 1s;
+}
+/* .c1 ,.c2, .c3
+{
+    overflow: hidden;
+    box-sizing: border-box;
+        
+    background-color: rgb(134, 184, 211);
+}  */
+.c1 
+{
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+
+}
+#Head1
+{
+    
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.course-content
+{
+ 
+    width: 400px;
+    height: 400px;
+}
+Card:hover{
+    width: 420px;
+    height: 420px;
+    transition: 0.3s;
+}
